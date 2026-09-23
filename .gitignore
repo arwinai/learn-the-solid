@@ -1,0 +1,13 @@
+data/
+ckpt/
+third_party/
+__pycache__/
+*.pyc
+*.npz
+!cinv/verification_musd.npz
+*.pkl
+*.pt
+*.pth
+*.step
+*.stp
+logs/

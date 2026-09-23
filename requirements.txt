@@ -1,0 +1,7 @@
+# Geometry environment (region graphs, perturbation generation):
+#   conda create -n cinv-geom python=3.11 pythonocc-core=7.8 numpy scipy
+# Learning environment (training, evaluation):
+#   conda create -n cinv-dl python=3.11 numpy scipy
+#   then install torch 2.4 and dgl 2.4 for your CUDA build (the paper used CUDA 12.1).
+numpy>=1.24
+scipy>=1.10
